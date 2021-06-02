@@ -13,7 +13,7 @@ namespace Parcial1_Apd2_20180240.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source =Data\BaseDeDatos.db");
+            optionsBuilder.UseSqlite(@"Data Source =Data\BaseDeDatos.db") ;
         }
     }
 }
