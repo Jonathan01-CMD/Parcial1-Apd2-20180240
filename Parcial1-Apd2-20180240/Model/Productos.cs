@@ -16,13 +16,13 @@ namespace Parcial1_Apd2_20180240.Model
         public string Descripsion   { get; set; }
         
         [Required(ErrorMessage = "El dato Existencia es incorecto")]
-        public int Existencia { get; set; }
+        public float Existencia { get; set; }
 
         [Required(ErrorMessage = "El dato Costo es incorecto")]
-        public int Costo { get; set; }
+        public float Costo { get; set; }
 
         [Required(ErrorMessage = "El dato Inventario es incorecto")]
-        public int Inventario { get; set; }
+        public float Inventario { get; set; }
 
 
     }
