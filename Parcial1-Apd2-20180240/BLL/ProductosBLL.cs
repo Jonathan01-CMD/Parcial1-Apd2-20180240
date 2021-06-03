@@ -44,6 +44,7 @@ namespace Parcial1_Apd2_20180240.BLL
 
             try
             {
+                productos.Inventario = productos.Costo * productos.Existencia;
                 contexto.Producto.Add(productos);
                 paso = contexto.SaveChanges() > 0;
             }
